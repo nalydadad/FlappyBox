@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DDPlayViewController.h
 //  DDFlappyBird
 //
 //  Created by Dada on 2016/12/12.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DDWelcomeView.h"
 
-@interface ViewController : UIViewController
+@interface DDPlayViewController : UIViewController<WelcomeButtonDelegate>
 
 
 @end
