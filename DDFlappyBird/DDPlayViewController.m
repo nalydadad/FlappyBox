@@ -109,7 +109,6 @@ static const float kBirdHeight = 40;
     return NO;
 }
 
-
 #pragma mark- welcome button delegate
 
 - (void)startButtonClick:(id)sender {

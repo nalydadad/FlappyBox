@@ -22,6 +22,9 @@
 @end
 
 
+
+
+
 @implementation DDObstacleMapLayer
 
 - (instancetype)init {
@@ -49,7 +52,6 @@
     frame.origin.x -= 1;
     self.frame = frame;
 }
-
 
 - (void)generateObstacle {
     CGRect intervalRect = CGRectMake(0, 0, 60, 130);
