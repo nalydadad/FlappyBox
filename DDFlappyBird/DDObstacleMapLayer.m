@@ -22,9 +22,6 @@
 @end
 
 
-
-
-
 @implementation DDObstacleMapLayer
 
 - (instancetype)init {

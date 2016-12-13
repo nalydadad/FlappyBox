@@ -10,7 +10,4 @@
 #import "DDWelcomeView.h"
 
 @interface DDPlayViewController : UIViewController <WelcomeButtonDelegate>
-
-
 @end
-

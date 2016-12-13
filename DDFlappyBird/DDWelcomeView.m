@@ -81,8 +81,6 @@ static const float kButtonHeight = 40;
                 kButtonWidth,
                 kButtonHeight);
     }
-
-
 }
 
 @end

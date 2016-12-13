@@ -15,5 +15,4 @@
 - (void)shiftLeft;
 
 - (void)initMap;
-
 @end

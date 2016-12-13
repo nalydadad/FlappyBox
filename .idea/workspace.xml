@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e6f88b65-9b55-4fda-ba5a-2e36a4066bb2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_49600e77d3a83e50d79f4a68bf9ba95e9231ab41" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DDPlayViewController.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DDPlayViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="100" column="25" lean-forward="false" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -38,7 +34,7 @@
       <file leaf-file-name="DDObstacleMapLayer.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="874">
               <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding />
             </state>
@@ -48,8 +44,8 @@
       <file leaf-file-name="DDPlayViewController.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -58,8 +54,8 @@
       <file leaf-file-name="DDObstacleMapLayer.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -75,11 +71,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DDBirdLayer.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,7 +94,7 @@
       <file leaf-file-name="DDWelcomeView.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
+            <state relative-caret-position="689">
               <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
@@ -99,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,13 +126,13 @@
       <list>
         <option value="$PROJECT_DIR$/DDFlappyBird/ViewController.m" />
         <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
         <option value="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h" />
-        <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
         <option value="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h" />
         <option value="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" />
-        <option value="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
-        <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
-        <option value="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
       </list>
     </option>
   </component>
@@ -255,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481536387581</updated>
       <workItem from="1481536390104" duration="427000" />
-      <workItem from="1481593656445" duration="2360000" />
+      <workItem from="1481593656445" duration="2565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2787000" />
+    <option name="totallyTimeSpent" value="2992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -317,7 +323,55 @@
     <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -330,50 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h">
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="100" column="25" lean-forward="false" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
