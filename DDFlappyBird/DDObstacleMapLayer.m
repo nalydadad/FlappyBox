@@ -8,6 +8,20 @@
 
 #import "DDObstacleMapLayer.h"
 #import <UIKit/UIKit.h>
+
+
+@interface NSValue(CGRect)
++ (instancetype) initWithCGRect:(CGRect)rect;
+@end
+
+@implementation NSValue(CGRect)
++(instancetype) initWithCGRect:(CGRect)rect {
+    NSValue *value = [NSValue valueWithBytes:&rect objCType:@encode(CGRect)];
+    return value;
+}
+@end
+
+
 @implementation DDObstacleMapLayer
 
 - (instancetype)init {

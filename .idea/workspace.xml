@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f88b65-9b55-4fda-ba5a-2e36a4066bb2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +31,8 @@
       <file leaf-file-name="DDObstacleMapLayer.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="456">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +51,8 @@
       <file leaf-file-name="DDObstacleMapLayer.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -253,12 +246,12 @@
       <option name="presentableId" value="Default" />
       <updated>1481536387581</updated>
       <workItem from="1481536390104" duration="427000" />
-      <workItem from="1481593656445" duration="1651000" />
+      <workItem from="1481593656445" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2078000" />
+    <option name="totallyTimeSpent" value="2194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -313,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -369,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state relative-caret-position="456">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,25 +8,6 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface NSValue(CGRect)
-+ (instancetype) initWithCGRect:(CGRect)rect;
-- (CGRect) CGRectValue;
-@end
-
-@implementation NSValue(CGRect)
-
-+(instancetype) initWithCGRect:(CGRect)rect {
-    NSValue *value = [NSValue valueWithBytes:&rect objCType:@encode(CGRect)];
-    return value;
-}
-
-- (CGRect)CGRectValue {
-    CGRect rect;
-    [self getValue:&rect];
-    return rect;
-}
-
-@end
 
 @interface DDObstacleMapLayer : CALayer
 @property(strong, nonatomic) NSMutableArray<NSValue*> *intervalRects;
