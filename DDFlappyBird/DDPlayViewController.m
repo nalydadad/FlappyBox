@@ -39,29 +39,28 @@ static const float kBirdHeight = 40;
 - (void)addPlayView {
     self.playView = [[UIView alloc] initWithFrame:self.view.frame];
     self.bird = [[DDBirdLayer alloc] init];
-    self.bird.frame = CGRectMake((self.view.frame.size.width - kBirdWidth) / 2 ,
-                                 (self.view.frame.size.height - kBirdHeight) / 2,
-                                 kBirdWidth, kBirdHeight);
+    self.bird.frame = CGRectMake((self.view.frame.size.width - kBirdWidth) / 2,
+            (self.view.frame.size.height - kBirdHeight) / 2,
+            kBirdWidth, kBirdHeight);
     [self.playView.layer addSublayer:self.bird];
-    
+
     self.map = [[DDObstacleMapLayer alloc] init];
     [self.playView.layer addSublayer:self.map];
-    
+
     self.backButton = [[UIButton alloc] initWithFrame:CGRectMake(10, 10, 60, 40)];
-    
+
     [self.backButton setTitle:@"<" forState:UIControlStateNormal];
     [self.backButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.backButton addTarget:self action:@selector(backButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self.playView addSubview:self.backButton];
-    
+
     UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapActoin)];
     [self.playView addGestureRecognizer:tgr];
-    
     [self.view addSubview:self.playView];
 }
 
 - (void)backButtonClicked:(id)sender {
-    if(self.displayLink.isPaused) {
+    if (self.displayLink.isPaused) {
         self.welcomeView.hidden = NO;
         self.playView.hidden = !self.welcomeView.hidden;
         [self.welcomeView showResumeButton:NO];
@@ -74,16 +73,16 @@ static const float kBirdHeight = 40;
 }
 
 - (void)tapActoin {
-    if(!self.displayLink.isPaused) {
+    if (!self.displayLink.isPaused) {
         [self.bird fly];
     }
 }
 
 - (void)startDisplayLink {
     [self.map initMap];
-    self.bird.frame = CGRectMake((self.view.frame.size.width - kBirdWidth) / 2 ,
-                                 (self.view.frame.size.height - kBirdHeight) / 2,
-                                 kBirdWidth, kBirdHeight);
+    self.bird.frame = CGRectMake((self.view.frame.size.width - kBirdWidth) / 2,
+            (self.view.frame.size.height - kBirdHeight) / 2,
+            kBirdWidth, kBirdHeight);
     self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(handleDisplayLink:)];
     [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
 }
@@ -92,18 +91,18 @@ static const float kBirdHeight = 40;
     [CATransaction begin];
     [CATransaction setDisableActions:YES];
     [self.bird drop];
-    [self.map shiftMap];
-    if([self isBirdHitRect]) {
+    [self.map shiftLeft];
+    if ([self isBirdHitObstacle]) {
         self.displayLink.paused = YES;
     }
     [CATransaction commit];
 }
 
-- (BOOL)isBirdHitRect {
+- (BOOL)isBirdHitObstacle {
     for (CALayer *layer in self.map.sublayers) {
         CGRect currentRect = layer.frame;
         currentRect.origin.x += self.map.frame.origin.x;
-        if(!CGRectIsNull(CGRectIntersection(currentRect, self.bird.frame))) {
+        if (!CGRectIsNull(CGRectIntersection(currentRect, self.bird.frame))) {
             return YES;
         }
     }
@@ -112,8 +111,9 @@ static const float kBirdHeight = 40;
 
 
 #pragma mark- welcome button delegate
+
 - (void)startButtonClick:(id)sender {
-    if(self.displayLink != nil) {
+    if (self.displayLink != nil) {
         [self.displayLink removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
         self.displayLink = nil;
     }

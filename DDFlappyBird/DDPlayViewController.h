@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DDWelcomeView.h"
 
-@interface DDPlayViewController : UIViewController<WelcomeButtonDelegate>
+@interface DDPlayViewController : UIViewController <WelcomeButtonDelegate>
 
 
 @end

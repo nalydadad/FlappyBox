@@ -10,8 +10,10 @@
 
 
 @interface DDObstacleMapLayer : CALayer
-@property(strong, nonatomic) NSMutableArray<NSValue*> *intervalRects;
-- (void)shiftMap;
-- (void) initMap;
+@property(strong, nonatomic) NSMutableArray<NSValue *> *intervalRects;
+
+- (void)shiftLeft;
+
+- (void)initMap;
 
 @end

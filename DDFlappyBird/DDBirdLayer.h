@@ -9,6 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface DDBirdLayer : CALayer
-- (void) fly;
-- (void) drop;
+- (void)fly;
+
+- (void)drop;
 @end
