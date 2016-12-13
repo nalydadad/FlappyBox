@@ -17,7 +17,7 @@
 		0FAF89C41DFE918200539313 /* DDWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF89C31DFE918200539313 /* DDWelcomeView.m */; };
 		0FAF89C61DFE955100539313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF89C51DFE955100539313 /* Main.storyboard */; };
 		0FAF89CF1DFEA22700539313 /* DDBirdLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF89CE1DFEA22700539313 /* DDBirdLayer.m */; };
-		0FAF89D21DFEAC7300539313 /* DDObstacleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF89D11DFEAC7300539313 /* DDObstacleMap.m */; };
+		0FAF89D21DFEAC7300539313 /* DDObstacleMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF89D11DFEAC7300539313 /* DDObstacleMapLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		0FAF89C51DFE955100539313 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		0FAF89CD1DFEA22700539313 /* DDBirdLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBirdLayer.h; sourceTree = "<group>"; };
 		0FAF89CE1DFEA22700539313 /* DDBirdLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBirdLayer.m; sourceTree = "<group>"; };
-		0FAF89D01DFEAC7300539313 /* DDObstacleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDObstacleMap.h; sourceTree = "<group>"; };
-		0FAF89D11DFEAC7300539313 /* DDObstacleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDObstacleMap.m; sourceTree = "<group>"; };
+		0FAF89D01DFEAC7300539313 /* DDObstacleMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDObstacleMapLayer.h; sourceTree = "<group>"; };
+		0FAF89D11DFEAC7300539313 /* DDObstacleMapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDObstacleMapLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 				0FAF89961DFE8E1500539313 /* DDPlayViewController.m */,
 				0FAF89CD1DFEA22700539313 /* DDBirdLayer.h */,
 				0FAF89CE1DFEA22700539313 /* DDBirdLayer.m */,
-				0FAF89D01DFEAC7300539313 /* DDObstacleMap.h */,
-				0FAF89D11DFEAC7300539313 /* DDObstacleMap.m */,
+				0FAF89D01DFEAC7300539313 /* DDObstacleMapLayer.h */,
+				0FAF89D11DFEAC7300539313 /* DDObstacleMapLayer.m */,
 				0FAF899B1DFE8E1500539313 /* Assets.xcassets */,
 				0FAF899D1DFE8E1500539313 /* LaunchScreen.storyboard */,
 				0FAF89A01DFE8E1500539313 /* Info.plist */,
@@ -290,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FAF89971DFE8E1500539313 /* DDPlayViewController.m in Sources */,
-				0FAF89D21DFEAC7300539313 /* DDObstacleMap.m in Sources */,
+				0FAF89D21DFEAC7300539313 /* DDObstacleMapLayer.m in Sources */,
 				0FAF89C41DFE918200539313 /* DDWelcomeView.m in Sources */,
 				0FAF89941DFE8E1500539313 /* AppDelegate.m in Sources */,
 				0FAF89CF1DFEA22700539313 /* DDBirdLayer.m in Sources */,
@@ -520,6 +520,7 @@
 				0FAF89BB1DFE8E1500539313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FAF89BC1DFE8E1500539313 /* Build configuration list for PBXNativeTarget "DDFlappyBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				0FAF89BE1DFE8E1500539313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FAF89BF1DFE8E1500539313 /* Build configuration list for PBXNativeTarget "DDFlappyBirdUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				0FAF89C11DFE8E1500539313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

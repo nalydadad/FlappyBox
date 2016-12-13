@@ -10,10 +10,12 @@
 
 @protocol WelcomeButtonDelegate
 - (void) startButtonClick:(id)sender;
+- (void) resumeButtonClick:(id)sender;
 @end
 
 
 
 @interface DDWelcomeView : UIView
 @property(weak, nonatomic) id<WelcomeButtonDelegate>delegate;
+- (void)showResumeButton:(BOOL)show;
 @end

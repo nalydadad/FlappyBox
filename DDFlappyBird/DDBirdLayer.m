@@ -6,6 +6,9 @@
 //  Copyright © 2016年 Dada. All rights reserved.
 //
 
+static const float kBirdFlyHeight = 100;
+static const float kBirdDropHeight = 4;
+
 #import "DDBirdLayer.h"
 #import <UIKit/UIKit.h>
 
@@ -14,20 +17,18 @@
 - (instancetype)init {
     self = [super init];
     self.backgroundColor = [UIColor redColor].CGColor;
-    self.borderColor = [UIColor blackColor].CGColor;
-    self.borderWidth = 1;
     return self;
 }
 
 - (void)fly {
     CGRect frame = self.frame;
-    frame.origin.y -= 100;
+    frame.origin.y -= kBirdFlyHeight;
     self.frame = frame;
 }
 
 - (void)drop {
     CGRect frame = self.frame;
-    frame.origin.y += 4;
+    frame.origin.y += kBirdDropHeight;
     self.frame = frame;
 }
 

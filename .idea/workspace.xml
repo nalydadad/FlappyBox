@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f88b65-9b55-4fda-ba5a-2e36a4066bb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/Assets.xcassets/googlelogo_color_120x44dp.imageset/googlelogo_color_120x44dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/Assets.xcassets/googlelogo_color_120x44dp.imageset/googlelogo_color_120x44dp@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/Assets.xcassets/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/Assets.xcassets/googlelogo_color_120x44dp.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main.storyboard" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DDFlappyBird/Base.lproj/Main.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DDFlappyBird/ViewController.m" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DDFlappyBird/ViewController.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcschemes/DDFlappyBird.xcscheme" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcschemes/DDFlappyBird.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/AppDelegate.m" afterPath="$PROJECT_DIR$/DDFlappyBird/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/DDFlappyBird/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/Info.plist" afterPath="$PROJECT_DIR$/DDFlappyBird/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/DDFlappyBird.xcodeproj/xcuserdata/dada.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" afterPath="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,28 +24,93 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_49600e77d3a83e50d79f4a68bf9ba95e9231ab41" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DDPlayViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            <state relative-caret-position="833">
+              <caret line="117" column="29" lean-forward="false" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DDObstacleMap.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m">
+      <file leaf-file-name="DDObstacleMapLayer.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="510">
+              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DDPlayViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DDObstacleMapLayer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DDBirdLayer.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DDBirdLayer.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DDWelcomeView.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DDWelcomeView.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>changeto</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,8 +119,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DDFlappyBird/ViewController.m" />
-        <option value="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
         <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m" />
+        <option value="$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m" />
       </list>
     </option>
   </component>
@@ -78,7 +135,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1337" />
@@ -98,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -126,7 +183,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,6 +216,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -190,33 +252,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481536387581</updated>
-      <workItem from="1481536390104" duration="306000" />
+      <workItem from="1481536390104" duration="427000" />
+      <workItem from="1481593656445" duration="1651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306000" />
+    <option name="totallyTimeSpent" value="2078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="23" width="2560" height="1337" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -234,16 +297,80 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
+        <state relative-caret-position="1007">
           <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMap.m">
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDBirdLayer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="117" column="29" lean-forward="false" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDWelcomeView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDPlayViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDFlappyBird/DDObstacleMapLayer.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding />
         </state>
       </provider>
